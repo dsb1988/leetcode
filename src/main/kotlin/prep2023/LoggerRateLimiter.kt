@@ -1,3 +1,5 @@
+package prep2023
+
 /**
  * Your Logger object will be instantiated and called as such:
  * var obj = Logger()

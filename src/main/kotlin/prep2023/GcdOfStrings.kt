@@ -1,3 +1,5 @@
+package prep2023
+
 fun main() {
     val str1 = "ABCABC"
     val str2 = "ABC"

@@ -1,3 +1,5 @@
+package prep2023
+
 import kotlin.math.min
 
 fun main() {

@@ -1,3 +1,5 @@
+package prep2023
+
 import java.lang.Integer.min
 
 class CustomStack(private val maxSize: Int) {

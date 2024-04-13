@@ -1,3 +1,5 @@
+package prep2023
+
 fun main() {
     println("Hello Stocks!")
     val prices = intArrayOf(7,1,5,3,6,4)

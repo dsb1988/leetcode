@@ -1,3 +1,5 @@
+package prep2023
+
 fun findMin(nums: IntArray): Int {
     if (nums.size == 1) return nums[0]
     if (nums.isEmpty()) return 0

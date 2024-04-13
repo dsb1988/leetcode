@@ -1,4 +1,6 @@
-import java.util.LinkedList
+package prep2023
+
+import java.util.*
 
 class SnakeGame(private val width: Int, private val height: Int, food: Array<IntArray>) {
     private val snake = LinkedList<Point>()

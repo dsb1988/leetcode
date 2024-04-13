@@ -1,3 +1,5 @@
+package prep2023
+
 fun main() {
     val votes = arrayOf("ABC","ACB","ABC","ACB","ACB")
     rankTeams(votes)

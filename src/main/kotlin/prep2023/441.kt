@@ -1,3 +1,5 @@
+package prep2023
+
 fun arrangeCoins(n: Int): Int {
     var coins = n
     for (i in 1..n) {
