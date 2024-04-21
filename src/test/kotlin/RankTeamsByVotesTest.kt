@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test
+import prep2023.rankTeams
 import kotlin.test.assertEquals
 
 class RankTeamsByVotesTest {
