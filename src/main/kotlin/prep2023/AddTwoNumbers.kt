@@ -1,5 +1,7 @@
 package prep2023
 
+import models.ListNode
+
 fun main() {
     val leftArr = arrayOf(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1)
     val rightArr = arrayOf(9, 9, 9, 9)
@@ -54,8 +56,5 @@ fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     }
 }
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
 
 fun ListNode.hasNext() = next == null
