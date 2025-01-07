@@ -1,7 +1,5 @@
 package prep2024
 
-import kotlin.math.max
-
 fun main() {
 
 }
