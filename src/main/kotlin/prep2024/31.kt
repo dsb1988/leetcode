@@ -7,7 +7,7 @@ fun main() {
     println(nums.contentToString())
 }
 
-fun nextPermutation(nums: IntArray): Unit {
+fun nextPermutation(nums: IntArray) {
     if (nums.isEmpty()) return
     if (nums.size == 1) return
 

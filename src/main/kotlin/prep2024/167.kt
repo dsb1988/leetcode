@@ -13,7 +13,7 @@ fun twoSumSorted(numbers: IntArray, target: Int): IntArray {
         when {
             sum < target -> left++
             sum > target -> right--
-            sum == target -> return intArrayOf(left + 1, right + 1)
+            else -> return intArrayOf(left + 1, right + 1)
         }
     }
     return intArrayOf()

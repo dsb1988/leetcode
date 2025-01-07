@@ -3,7 +3,6 @@ package prep2024
 import models.ListNode
 import models.linkedListOf
 import models.print
-import java.util.PriorityQueue
 
 fun main() {
     println("Merge k Sorted Lists")
