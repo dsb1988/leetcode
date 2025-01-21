@@ -1,3 +1,5 @@
+package prep2025
+
 fun main() {
 //    println(findInteger(2, 0, 2))
     println(findInteger(5, 2, 8))
