@@ -1,11 +1,11 @@
 package prep2025
 
 fun main() {
-    println(maxCount(intArrayOf(1, 6, 5), 5, 6))
-    println(maxCount(intArrayOf(11), 7, 50))
+    println(maxCount2554(intArrayOf(1, 6, 5), 5, 6))
+    println(maxCount2554(intArrayOf(11), 7, 50))
 }
 
-fun maxCount(banned: IntArray, n: Int, maxSum: Int): Int {
+fun maxCount2554(banned: IntArray, n: Int, maxSum: Int): Int {
     val bannedSet = mutableSetOf<Int>()
     banned.forEach { e -> bannedSet.add(e) }
     val nums = mutableSetOf<Int>()
